@@ -18,6 +18,21 @@ An LLM plans, Jev decides each moment, and code moves a box on a flat plane. Rea
 - Update the affected docs in the same change as the code.
 - Describe the system as it is. Do not describe how it changed.
 
+## Commits and pull requests
+
+Before committing, run `pnpm format`, then `pnpm lint` and `pnpm typecheck`. Commit only when both pass.
+
+- Use Conventional Commits: `<type>[optional scope]: <description>`. Types: `feat`, `fix`, `docs`, `refactor`, `chore`, `test`, `perf`, `ci`.
+- Write one line. Add a short body only when the diff does not show the why.
+- Do not add a `Co-Authored-By` trailer.
+
+```text
+feat(planner): add a wait action
+fix(engine): skip Jev requests while no step is active
+```
+
+In a pull request, state what changed and why. Do not narrate each step. Do not add a co-author line.
+
 ## Code guidelines
 
 - Separate modules by domain.

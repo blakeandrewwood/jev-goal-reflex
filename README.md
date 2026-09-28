@@ -8,6 +8,8 @@ go to center right, then go to center left, then go to center
 jump and do a 180 in the air
 ```
 
+https://github.com/user-attachments/assets/83aa1c7a-5cd4-4da5-9f07-6a576eeef1b2
+
 ## How it works
 
 | Layer | Component | Role |
