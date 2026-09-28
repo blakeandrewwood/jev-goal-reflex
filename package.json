@@ -1,6 +1,7 @@
 {
   "name": "jev-goal-reflex",
   "private": true,
+  "license": "MIT",
   "type": "module",
   "scripts": {
     "start": "vite",

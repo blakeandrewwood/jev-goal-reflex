@@ -79,3 +79,7 @@ Run a test backend on another port with `pnpm backend --port 8766`. Point `obser
 | [docs/architecture.md](docs/architecture.md) | Components, modules, plans, steps, actions, control, engine loops |
 | [docs/jev.md](docs/jev.md) | Jev questions and the state Jev receives |
 | [src/shared/protocol.ts](src/shared/protocol.ts) | WebSocket snapshot and message types |
+
+## License
+
+[MIT](LICENSE)
